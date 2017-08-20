@@ -1,0 +1,3 @@
+n dene oglan ve m dene qiz var.otelde yer ayirdilacaq.her otagda k dene yataq varsa toplam nece otaq oldugun hesablayan program yaz
+input n,m,k ...ouput :otag sayi
+oglan ve qizlar beraber qala bilmez

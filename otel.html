@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+
+<body>
+
+
+<script>
+n=Number(prompt("oglanlarin sayini yaz"));
+m=Number(prompt("qizlarin sayini yaz"));
+k=Number(prompt("otaqdaki yataqlarin sayini yaz"));
+
+if (n%k>0 && m%k>0) {
+		console.log(Math.floor(n/k)+Math.floor(m/k)+2);
+	}
+else if (n%k>0 || m%k>0) {
+	console.log(Math.floor(n/k)+Math.floor(m/k)+1);
+}
+else
+	console.log(n/k+m/k);
+</script>
+</body>
+</html>
